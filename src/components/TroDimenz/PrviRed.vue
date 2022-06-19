@@ -86,7 +86,7 @@
 
     <!-- drugi red -->
 
-    <div class="row">
+    <!-- <div class="row">
       <div class="col-6 bg-success border">
         <form action="" class="form-control bg-success text-white">
           <h2>Valjak<br /><br /></h2>
@@ -199,9 +199,10 @@
           <div><br /><br /></div>
         </form>
       </div>
-    </div>
+    </div> -->
     <br />
   </div>
+  
 </template>
 
 <script>

@@ -1,5 +1,5 @@
 <template>
-
+<header>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container">
    
@@ -11,12 +11,13 @@
 <router-link :to="'/dvodimenzionalni'"><p class="" >Dvodimenzionalni</p></router-link>
   <router-link :to="'/trodimenzionalni'"><p class="tro" >Trodimenzionalni </p></router-link>
 
-         
+      
        
       </div>
     </div>
   </div>
 </nav>
+  </header> 
 
     <router-view></router-view>
   
@@ -26,13 +27,7 @@
   <div class="container-fluid">
     
   </div>
-  <the-footer>
-    <template #footer>
-      <div class="container bg-danger">
-        <h2></h2>
-      </div>
-    </template>
-  </the-footer>
+ 
   <br>
 </template>
 

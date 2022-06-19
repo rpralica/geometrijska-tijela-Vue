@@ -1,6 +1,8 @@
 <template>
 <div class="container containers">
+  <header>
   <slot></slot>
+  </header>
   </div>
 <br>
   
@@ -23,9 +25,6 @@ export default {
      background: deepskyblue;
      padding-top: 1em;
      color: white;
-     width:69.4%;
-     
-     
      
 }
 

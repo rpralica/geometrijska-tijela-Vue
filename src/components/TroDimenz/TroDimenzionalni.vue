@@ -7,19 +7,26 @@
     </div>
   </the-header>
 
-  <div class="container">
-    <prvi-red></prvi-red>
-    
-  </div>
+  <prvi-red></prvi-red>
+  <drugi-red></drugi-red>
+<br>
+  <the-footer>
+    <template #footer>
+      <footer class="container-sm bg-danger footers">
+          <h4>Created by Matejko Team</h4>
+      </footer>
+    </template>
+  </the-footer>
 </template>
 
 <script>
 import PrviRed from './PrviRed.vue';
+import DrugiRed from './DrugiRed.vue';
 
 export default {
   components: {
     PrviRed,
-   
+    DrugiRed,
   },
   data() {
     return {};
@@ -28,7 +35,10 @@ export default {
 </script>
 
 <style scoped>
-.hedert {
- width:100%;
+.footers{
+  
+  margin-top:17em;
+  
 }
+
 </style>

@@ -1,46 +1,53 @@
 <template>
-
-
-
-  <div class="containers">
-    <the-header>
-      <header>
-        <h2 class="container">Dvodimenzionalna tijela</h2>
+  <the-header>
+   <div class="container containers">
+      <header >
+        
+      <h1>Dvodimenzionalna Tijela</h1>
+       
       </header>
-    </the-header>
-    </div>
-   <div class="container">
+      </div>
+  </the-header>
+
   <prvi-red></prvi-red>
-    <drugi-red></drugi-red>
-    <treci-red></treci-red>
-   
-  </div>
+  <drugi-red></drugi-red>
+<treci-red></treci-red>
+
+  <the-footer>
+    <template #footer>
+      <footer class="container-sm bg-danger footers">
+      <h4>Created by Matejko Team</h4>
+      </footer>
+    </template>
+  </the-footer>
 </template>
 
 <script>
 import PrviRed from './PrviRed.vue';
 import DrugiRed from './DrugiRed.vue';
 import TreciRed from './TreciRed.vue';
-
 export default {
-     components: {
+  components: {
     PrviRed,
-    DrugiRed,
-    TreciRed,
-   
+    DrugiRed,TreciRed
+
     // TroDimenz,
   },
   data() {
-    return {
-
-    };
+    return {};
   },
 };
 </script>
 
 <style scoped>
-.containers{
-    width: 100%;
+.footers{
+  /* background: red;
+  height: 5em;
+  color: white;
+  background: red;
+  color: white;
+  
+  height: 5em;
+  padding-top: 1em; */
 }
-
 </style>

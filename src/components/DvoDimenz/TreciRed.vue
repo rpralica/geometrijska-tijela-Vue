@@ -283,6 +283,9 @@ label {
   font-weight: bold;
   color:white;
 }
+h3{
+  color: white;
+}
 .frac {
   display: inline-block;
   position: relative;

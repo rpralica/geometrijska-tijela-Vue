@@ -1,10 +1,7 @@
 <template>
-
-<slot name="footer"></slot>
-  <div class="container bg-danger footers">
-<h2>Created by Matejko Team</h2>
-  </div>
-  
+  <slot name="footer">
+    <footer class="container-sm bg-danger footers"></footer>
+  </slot>
 </template>
 
 <script>
@@ -15,7 +12,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style>
 .footers {
   height: 5em;
   padding-top: 1.5em;
@@ -23,9 +20,8 @@ export default {
   color: white;
   font-weight: bolder;
   font-size: 24px;
-  width:69.6%;
 }
-h2{
-    color:white
+h2 {
+  color: white;
 }
 </style>
