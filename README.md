@@ -1,4 +1,4 @@
-# prazan-projekt
+# izračun površine obima i zapremine geometrijskih tijela
 
 ## Project setup
 ```
